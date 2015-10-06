@@ -1,0 +1,12 @@
+---
+applications:
+- name: server
+  memory: 512M
+  instances: 1
+  host: server-${random-word}
+  domain: cfapps.io
+  path: target/server.jar
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"
+    debug: "true"
