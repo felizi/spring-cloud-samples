@@ -1,0 +1,14 @@
+---
+applications:
+- name: music-player-service
+  memory: 512M
+  instances: 1
+  host: music-player-service-${random-word}
+  domain: cfapps.io
+  path: target/music-player-service.jar
+  services:
+      - server
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
+    DEBUG: "true"
+    debug: "true"
