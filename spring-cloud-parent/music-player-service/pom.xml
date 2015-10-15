@@ -6,15 +6,15 @@
 		<artifactId>spring-cloud-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	
+
 	<artifactId>music-player-service</artifactId>
 	<packaging>jar</packaging>
 
 	<name>music-player-service</name>
 
 	<properties>
-        <start-class>eureka.service.MusicPlayerService</start-class>
-    </properties>
+		<start-class>eureka.service.msp.MusicPlayerService</start-class>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -32,6 +32,11 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
 		</dependency>
 	</dependencies>
 </project>
