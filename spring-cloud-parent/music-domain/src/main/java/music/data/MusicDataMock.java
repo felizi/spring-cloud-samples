@@ -1,13 +1,13 @@
-package eureka.data.msp;
+package music.data;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 
-import eureka.domain.msp.Artist;
-import eureka.domain.msp.Music;
+import music.domain.Artist;
+import music.domain.Music;
 
-public class MusicPlayerDataMock implements MusicPlayerDataInterface {
+public class MusicDataMock implements MusicDataInterface {
 
 	@Override
 	public Collection<Artist> getAllArtists() {

@@ -1,4 +1,4 @@
-package eureka.domain.msp;
+package music.domain;
 
 public class Music {
 	private String name;

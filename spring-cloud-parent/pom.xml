@@ -23,6 +23,8 @@
 		<module>zuul</module>
 		<module>utils</module>
 		<module>music-player-service</module>
+		<module>music-sync-service</module>
+		<module>music-domain</module>
 	</modules>
 
 	<build>

@@ -13,7 +13,7 @@ import music.domain.Music;
 
 @RestController
 @RequestMapping("/")
-public class MusicPlayerRest {
+public class MusicSyncRest {
 
 	private MusicDAO dao = null;
 
