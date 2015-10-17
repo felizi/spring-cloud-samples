@@ -1,6 +1,8 @@
 info:
   component: Zuul Server
-
+eureka:
+   instance:
+      preferIpAddress: true
 endpoints:
   restart:
     enabled: true
@@ -11,13 +13,8 @@ endpoints:
 
 zuul:
   routes:
-    banco-service:
-      path: /banco-service/**
-    conta-service:
-      path: /conta-service/**
-    conta-client:
-      path: /conta-client/**
-#      stripPrefix: false
+    music-player-service:
+      path: /**
 
 server:
   port: 8765
