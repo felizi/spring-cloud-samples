@@ -34,17 +34,9 @@ public class MusicSyncRest {
 	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/artista/{id}", produces = "application/json")
-	private String artistaPorId(@PathVariable("id") int id) {
+	private Object artistaPorId(@PathVariable("id") int id) {
 		Artist artist = getMusicPlayerDAO().getArtistById(id);
-
-		StringBuilder sb = new StringBuilder();
-		sb.append("id: ");
-		sb.append(artist.getId());
-		sb.append("\n");
-		sb.append("nome: ");
-		sb.append(artist.getName());
-
-		return sb.toString();
+		return artist;
 	}
 
 	@RequestMapping(method = RequestMethod.GET, value = "/musicas", produces = "application/json")

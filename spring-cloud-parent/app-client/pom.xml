@@ -8,10 +8,10 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>app-client</artifactId>
+	<artifactId>music-player-client</artifactId>
 	<packaging>jar</packaging>
 
-	<name>app-client</name>
+	<name>music-player-client</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

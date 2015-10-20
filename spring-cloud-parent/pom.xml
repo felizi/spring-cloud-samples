@@ -16,15 +16,12 @@
 
 	<name>spring-cloud-parent</name>
 	<modules>
-        <module>conta-client</module>
-		<module>banco-service</module>
-		<module>conta-service</module>
 		<module>eureka-server</module>
 		<module>zuul</module>
-		<module>utils</module>
 		<module>music-player-service</module>
 		<module>music-sync-service</module>
 		<module>music-domain</module>
+        <module>music-player-client</module>
 	</modules>
 
 	<build>

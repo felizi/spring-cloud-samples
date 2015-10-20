@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Command implements CommandLineRunner {
 	
 	@Autowired
-	private MusicServiceClientLB musicServiceClient;
+	private MusicServiceClient musicServiceClient;
 	
 	@Override
 	public void run(String... args) throws Exception {

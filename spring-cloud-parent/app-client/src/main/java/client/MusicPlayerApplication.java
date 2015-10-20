@@ -12,10 +12,10 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 @EnableFeignClients
 @EnableHystrix
 @EnableCircuitBreaker
-public class AppClient {
+public class MusicPlayerApplication {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(AppClient.class, args);
+		SpringApplication.run(MusicPlayerApplication.class, args);
 	}
 	
 }
